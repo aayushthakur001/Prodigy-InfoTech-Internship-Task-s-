@@ -10,12 +10,11 @@ def show_banner():
  \____\__,_|_| |_| |_|\___||___/___/ |_|   |_|\__,_|_|_| |_|___/
 
 =====================================================================
-                Caesar Cipher Tool - Prodigy Infotech Internship
-                         Developed by: Ayush Thakur(Hunter001x 💻)
+        Caesar Cipher Tool - Prodigy Infotech Internship
+            Developed by: Ayush Thakur(Hunter001x 💻)
 =====================================================================
     """)
-
-# Call this right before your menu or argparse logic
+show_banner()
 
 def encrypt(text, shift):
     result = ""
