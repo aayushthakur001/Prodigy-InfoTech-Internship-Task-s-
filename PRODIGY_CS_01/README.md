@@ -89,7 +89,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## 👨‍💻 Developed By
 
 **Ayush Thakur**  
-GitHub: [Hunter001x](https://github.com/Hunter001x)  
+GitHub: [Hunter001x](https://github.com/aayushthakur001)  
 Part of the **Prodigy Infotech Internship** program.
 
 ---
