@@ -24,9 +24,27 @@ Install the dependencies using:
 pip install pillow tqdm
 ```
 
+## 📦 Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/pixel-image-encryptor.git
+   cd pixel-image-encryptor
+   ```
+2. Install the required dependencies:
+   ```bash
+   pip install pillow tqdm
+   ```
+3. Ensure you have Python 3.6 or higher installed.
+
 ## 📖 Usage
 
 ### 1. Interactive Mode
+If you don't provide all the required arguments, the tool will switch to an interactive menu:
+1. Enter the image path.
+2. Choose the mode (encrypt or decrypt).
+3. Specify the encryption key (0-255).
+4. Provide an output filename (or press Enter for the default).
 Run the script without arguments to enter interactive mode:
 ```bash
 python image_encryptor.py
@@ -40,6 +58,16 @@ Use the following arguments for automation:
 - `--output`: Path to save the output image.
 - `--key`: Encryption key (integer between 0 and 255).
 - `--verbose`: Enable verbose logging.
+
+Run the script with the following arguments:
+```bash
+python image_encryptor.py --mode [encrypt|decrypt] --input [input_path] --output [output_path] --key [0-255]
+```
+
+Example:
+```bash
+python image_encryptor.py --mode encrypt --input image.png --output encrypted_image.png --key 42
+```
 
 Example:
 ```bash
@@ -66,6 +94,12 @@ The tool uses XOR encryption to modify the pixel values of the image. XOR is a r
 
 ### Decryption Logic
 Decryption is identical to encryption since XOR is reversible.
+
+## 📁 Output
+
+The tool saves the processed image to the specified output path. If no output path is provided, it defaults to:
+- `encrypted_output.png` for encryption.
+- `decrypted_output.png` for decryption.
 
 ## 🖼️ Banner
 
@@ -97,6 +131,13 @@ PRODIGY_CS_02/
 ├── README.md           # Documentation
 ```
 
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to:
+- Report bugs 🐛
+- Suggest features ✨
+- Submit pull requests 🔧
+  
 ## 📝 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
