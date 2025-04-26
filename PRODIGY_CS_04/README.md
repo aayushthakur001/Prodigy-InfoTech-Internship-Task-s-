@@ -50,7 +50,8 @@ pip install pynput
 
    ## Banner
 The tool displays the following banner upon execution:
- _  __          _                                      
+ ```
+_  __          _                                      
 | |/ /___ _   _| | ___  ___ ___  _ __   ___ _ __  _   _ 
 | ' // _ \ | | | |/ _ \/ __/ _ \| '_ \ / _ \ '_ \| | | |
 | . \  __/ |_| | |  __/ (_| (_) | | | |  __/ | | | |_| |
@@ -59,7 +60,7 @@ The tool displays the following banner upon execution:
     Simple Keylogger – Developed by: Ayush Thakur (Hunter001x)
             GitHub: https://github.com/aayushthakur001
 =================================================================
-
+```
 3. **Customize Behavior**: Use the available arguments to modify the keylogger's functionality.
 
 ---
