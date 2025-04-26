@@ -60,7 +60,17 @@ Before running the tool, ensure the following dependencies are installed:
    ```
 
 ---
-
+```
+  _   _      _                      _        _   _             
+ | \ | | ___| |___      _____  _ __| | _____ | \ | | _____      __
+ |  \| |/ _ \ __\ \ /\ / / _ \| '__| |/ / _ \|  \| |/ _ \ \ /\ / /
+ | |\  |  __/ |_ \ V  V / (_) | |  |   < (_) | |\  |  __/\ V  V / 
+ |_| \_|\___|\__| \_/\_/ \___/|_|  |_|\_\___/|_| \_|\___| \_/\_/  
+=========================================================================                                                                 
+      Ultimate Packet Sniffer – Developed by: Ayush Thakur (Hunter001x)
+             GitHub: https://github.com/aayushthakur001
+==========================================================================
+```
 ## 🚀 Usage
 
 1. Run the script with administrator privileges:
