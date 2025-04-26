@@ -1,7 +1,5 @@
 # 🚀 Ultimate Packet Sniffer
 
-![Banner](https://via.placeholder.com/800x200.png?text=Ultimate+Packet+Sniffer)
-
 ## 📖 Introduction
 
 The **Ultimate Packet Sniffer** is a Python-based network packet capturing tool designed to monitor and analyze network traffic in real-time. It provides detailed insights into network protocols such as TCP, UDP, ICMP, and HTTP. This tool is ideal for network administrators, cybersecurity professionals, and enthusiasts who want to understand network behavior or troubleshoot network issues.
